@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		html
+		{
+			background-color: lightcyan;
+			color: darkcyan;
+			font-family: Comic Sans MS;
+		}
+		button
+		{
+			border-radius: 7px;
+			border-width: 1px;
+			font-family: Comic Sans Ms;
+			font-size: 100%;
+			color: darkcyan;
+		}
+		input
+		{
+			background-color: darkgrey;
+			border-width: 2px;
+			border-color: lightgrey;
+			border-radius: 7px;
+			padding-left: 5px;
+			font-family: Comic Sans Ms;
+			color: white;
+		}
+		.title
+		{
+			text-align: center;
+		}
+		.form
+		{
+			text-align: left;
+			margin-left: 5em;
+		}
+		.login-button
+		{
+			margin-left: 10em;
+		}
+
+	</style>
+	<title>
+		Login to R.A.S Grade 7 Chat-Room
+	</title>
+	<h1 class='title'>
+		R.A.S Grade 7 Chat-Room Login
+</head>
+<body>
+	<h1 class='form'>
+		Login
+	</h1>
+	<h2 class='form'>
+		Username
+	</h2>
+	<form action='/login' method='post'>
+		<pre>      <input type="text" name="username" class='form'></pre>
+		<h2 class='form'>
+			Password
+		</h2>
+		<pre>      <input type="text" name="password" class='form'></pre>
+		<br>
+		<div class='login-button'>
+		<button class='form'>
+			Login
+		</button>
+
+	</form>
+</body>
+</html>
